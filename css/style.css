@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	line-height: 1.2em;
+}
+.clear{
+	clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.4em;
+	display: inline-block;
+}
+
+.refresh{
+	color: #17a2b8;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+@media (min-width: 576px){
+	.jumbotron {
+		padding: 1rem 2rem 0rem !important;
+	}
+}
+div.display-messages{
+	height: 400px;
+	overflow-y: scroll;
+}
+
+div.message{
+	text-align: left;
+}
+div.message span.date{
+	color: #757A88;
+	font-size: 0.8rem;
+}
+div.message span.pseudo{
+	color: #17a2b8;
+	font-size: 1rem;
+}
+
+
+/* Containers */
+.container {
+	margin: 0 auto;
+	max-width: 1400px;
+	width: 80%;
+}
+
+/***** P H P  E R R O R s ****/
+.xdebug-error {
+	background-color: 	#400D01 !important;
+	border-color: 		#26011B !important;
+	color: 				#F1D179 !important;
+	font-size: 			1.4em;
+	margin: 			auto;
+}
+.xdebug-error th {
+	background-color: 	#400D01 !important;
+	padding: 			5px;
+}
+.xdebug-error th span{
+	background-color: 	#400D01 !important;
+	color: 				#F1D179 !important;
+	font-size: 			large !important;
+}
+.xdebug-error tr td {
+	background-color: 	#59331A !important;
+}
+footer {
+	text-align: center;
+}
